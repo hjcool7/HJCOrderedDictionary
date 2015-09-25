@@ -1,0 +1,367 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		580018141BB4E34300F9F62E /* HJCOrderedDictionary.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 580018131BB4E34300F9F62E /* HJCOrderedDictionary.h */; };
+		580018161BB4E34300F9F62E /* HJCOrderedDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 580018151BB4E34300F9F62E /* HJCOrderedDictionary.m */; };
+		580018231BB4E37900F9F62E /* HJCOrderedDictionaryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 580018221BB4E37900F9F62E /* HJCOrderedDictionaryTests.m */; };
+		580018251BB4E37900F9F62E /* libHJCOrderedDictionary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 580018101BB4E34300F9F62E /* libHJCOrderedDictionary.a */; settings = {ASSET_TAGS = (); }; };
+		5800182C1BB5209900F9F62E /* HJCMutableOrderedDictionaryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5800182B1BB5209900F9F62E /* HJCMutableOrderedDictionaryTests.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		580018261BB4E37900F9F62E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 580018081BB4E34300F9F62E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5800180F1BB4E34300F9F62E;
+			remoteInfo = HJCOrderedDictionary;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5800180E1BB4E34300F9F62E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				580018141BB4E34300F9F62E /* HJCOrderedDictionary.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		580018101BB4E34300F9F62E /* libHJCOrderedDictionary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libHJCOrderedDictionary.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		580018131BB4E34300F9F62E /* HJCOrderedDictionary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HJCOrderedDictionary.h; sourceTree = "<group>"; };
+		580018151BB4E34300F9F62E /* HJCOrderedDictionary.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJCOrderedDictionary.m; sourceTree = "<group>"; };
+		580018201BB4E37900F9F62E /* HJCOrderedDictionaryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HJCOrderedDictionaryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		580018221BB4E37900F9F62E /* HJCOrderedDictionaryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJCOrderedDictionaryTests.m; sourceTree = "<group>"; };
+		580018241BB4E37900F9F62E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5800182B1BB5209900F9F62E /* HJCMutableOrderedDictionaryTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJCMutableOrderedDictionaryTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5800180D1BB4E34300F9F62E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5800181D1BB4E37900F9F62E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				580018251BB4E37900F9F62E /* libHJCOrderedDictionary.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		580018071BB4E34300F9F62E = {
+			isa = PBXGroup;
+			children = (
+				580018121BB4E34300F9F62E /* HJCOrderedDictionary */,
+				580018211BB4E37900F9F62E /* HJCOrderedDictionaryTests */,
+				580018111BB4E34300F9F62E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		580018111BB4E34300F9F62E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				580018101BB4E34300F9F62E /* libHJCOrderedDictionary.a */,
+				580018201BB4E37900F9F62E /* HJCOrderedDictionaryTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		580018121BB4E34300F9F62E /* HJCOrderedDictionary */ = {
+			isa = PBXGroup;
+			children = (
+				580018131BB4E34300F9F62E /* HJCOrderedDictionary.h */,
+				580018151BB4E34300F9F62E /* HJCOrderedDictionary.m */,
+			);
+			path = HJCOrderedDictionary;
+			sourceTree = "<group>";
+		};
+		580018211BB4E37900F9F62E /* HJCOrderedDictionaryTests */ = {
+			isa = PBXGroup;
+			children = (
+				580018221BB4E37900F9F62E /* HJCOrderedDictionaryTests.m */,
+				580018241BB4E37900F9F62E /* Info.plist */,
+				5800182B1BB5209900F9F62E /* HJCMutableOrderedDictionaryTests.m */,
+			);
+			path = HJCOrderedDictionaryTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5800180F1BB4E34300F9F62E /* HJCOrderedDictionary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 580018191BB4E34300F9F62E /* Build configuration list for PBXNativeTarget "HJCOrderedDictionary" */;
+			buildPhases = (
+				5800180C1BB4E34300F9F62E /* Sources */,
+				5800180D1BB4E34300F9F62E /* Frameworks */,
+				5800180E1BB4E34300F9F62E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HJCOrderedDictionary;
+			productName = HJCOrderedDictionary;
+			productReference = 580018101BB4E34300F9F62E /* libHJCOrderedDictionary.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		5800181F1BB4E37900F9F62E /* HJCOrderedDictionaryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 580018281BB4E37900F9F62E /* Build configuration list for PBXNativeTarget "HJCOrderedDictionaryTests" */;
+			buildPhases = (
+				5800181C1BB4E37900F9F62E /* Sources */,
+				5800181D1BB4E37900F9F62E /* Frameworks */,
+				5800181E1BB4E37900F9F62E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				580018271BB4E37900F9F62E /* PBXTargetDependency */,
+			);
+			name = HJCOrderedDictionaryTests;
+			productName = HJCOrderedDictionaryTests;
+			productReference = 580018201BB4E37900F9F62E /* HJCOrderedDictionaryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		580018081BB4E34300F9F62E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = hjcool7;
+				TargetAttributes = {
+					5800180F1BB4E34300F9F62E = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					5800181F1BB4E37900F9F62E = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = 5800180B1BB4E34300F9F62E /* Build configuration list for PBXProject "HJCOrderedDictionary" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 580018071BB4E34300F9F62E;
+			productRefGroup = 580018111BB4E34300F9F62E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5800180F1BB4E34300F9F62E /* HJCOrderedDictionary */,
+				5800181F1BB4E37900F9F62E /* HJCOrderedDictionaryTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5800181E1BB4E37900F9F62E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5800180C1BB4E34300F9F62E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				580018161BB4E34300F9F62E /* HJCOrderedDictionary.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5800181C1BB4E37900F9F62E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5800182C1BB5209900F9F62E /* HJCMutableOrderedDictionaryTests.m in Sources */,
+				580018231BB4E37900F9F62E /* HJCOrderedDictionaryTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		580018271BB4E37900F9F62E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5800180F1BB4E34300F9F62E /* HJCOrderedDictionary */;
+			targetProxy = 580018261BB4E37900F9F62E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		580018171BB4E34300F9F62E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		580018181BB4E34300F9F62E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5800181A1BB4E34300F9F62E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		5800181B1BB4E34300F9F62E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		580018291BB4E37900F9F62E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HJCOrderedDictionaryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hjcool7.HJCOrderedDictionaryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5800182A1BB4E37900F9F62E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HJCOrderedDictionaryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hjcool7.HJCOrderedDictionaryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5800180B1BB4E34300F9F62E /* Build configuration list for PBXProject "HJCOrderedDictionary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				580018171BB4E34300F9F62E /* Debug */,
+				580018181BB4E34300F9F62E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		580018191BB4E34300F9F62E /* Build configuration list for PBXNativeTarget "HJCOrderedDictionary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5800181A1BB4E34300F9F62E /* Debug */,
+				5800181B1BB4E34300F9F62E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		580018281BB4E37900F9F62E /* Build configuration list for PBXNativeTarget "HJCOrderedDictionaryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				580018291BB4E37900F9F62E /* Debug */,
+				5800182A1BB4E37900F9F62E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 580018081BB4E34300F9F62E /* Project object */;
+}
