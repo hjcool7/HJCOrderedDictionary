@@ -2,7 +2,7 @@
 //  HJCOrderedDictionaryTests.m
 //  HJCOrderedDictionaryTests
 //
-//  Created by 季成 on 15/9/25.
+//  Created by hjcool7 on 15/9/25.
 //  Copyright © 2015年 hjcool7. All rights reserved.
 //
 

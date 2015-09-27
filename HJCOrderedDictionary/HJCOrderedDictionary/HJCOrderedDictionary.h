@@ -2,8 +2,8 @@
 //  HJCOrderedDictionary.h
 //  HJCOrderedDictionary
 //
-//  Created by 季成 on 15/9/24.
-//  Copyright © 2015年 季成. All rights reserved.
+//  Created by hjcool7 on 15/9/24.
+//  Copyright © 2015年 hjcool7. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
